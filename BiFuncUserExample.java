@@ -12,6 +12,7 @@ public class BiFuncUserExample {
 		BiConsumer<String,String> c1 =(a,b)->System.out.println(a+b); 
 		c1.accept("Hello", "Hai");		
 		System.out.println("Another line added");
+		System.out.println("Anil has added line");
 
 	}
 
